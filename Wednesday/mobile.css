@@ -1,0 +1,53 @@
+
+.banner li{
+    padding-right:30px;
+}
+
+
+
+.banner {
+    display: flex;
+  }
+  
+.banner ul {
+    list-style: none;
+    display: flex;
+    background-color: black;
+    width:100%;
+    color: white;
+    flex-direction:column;
+    text-align: center;
+  }
+  
+
+.ad img{
+    width:100%;
+    height:20%;
+    display:none;
+}
+
+
+.body {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    margin-top:-20%;
+}
+
+.body div{
+    margin-bottom:40%;
+    margin-top:30%;
+}
+
+.caption{
+    flex-direction: column;
+}
+
+.caption img{
+    width:100%;
+}
+
+.caption p{
+    width: 100%;
+    position:relative;
+}
